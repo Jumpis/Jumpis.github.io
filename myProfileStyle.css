@@ -4,7 +4,7 @@
     padding: 100px;
     margin: 0 auto;
     position: relative;
-    background: rgba(209, 200, 187, .2);
+    /* background: rgba(209, 200, 187, .2); */
 }
 
 #my-pic {
@@ -22,39 +22,39 @@
 .my-detail {
     width: 1200px;
     height: auto;
-    background: rgba(130, 216, 16, 0.2);
+    /* background: rgba(130, 216, 16, 0.2); */
     position: absolute; top: 30px; left: 30px;
 }
 
 .my-image {
     width: 210px;
-    background: rgba(10, 187, 231, 0.2);
+    /* background: rgba(10, 187, 231, 0.2); */
     position: absolute; top: 30px; left: 30px;
 }
 
 .my-profile {
     color: rgb(23, 111, 194);
-    background: rgba(216, 16, 16, 0.2);
+    /* background: rgba(216, 16, 16, 0.2); */
     position: absolute; top: 30px; left: 250px;
 }
 
 .my-profile .data {
-    background: rgba(122, 8, 216, 0.2);
+    /* background: rgba(122, 8, 216, 0.2); */
     margin-bottom: 25px;
 }
 
 .my-info {
-    background: rgba(128, 83, 165, 0.2);
+    /* background: rgba(128, 83, 165, 0.2); */
     position: absolute; top: 350px; left: 60px;
 }
 
 .my-info .data{
-    background: rgba(128, 83, 165, 0.2);
+    /* background: rgba(128, 83, 165, 0.2); */
 }
 
 .small-title {
     width: 210px;
-    background: rgba(21, 13, 134, 0.2);
+    /* background: rgba(21, 13, 134, 0.2); */
     margin-right: 10px;
     float: left;
 }
@@ -62,14 +62,13 @@
 .whats-inside {
     width: 700px;
     height: auto;
-    background: rgba(23, 206, 84, 0.2);
+    /* background: rgba(23, 206, 84, 0.2); */
     overflow: hidden;
 }
 
 header h1 {
     font-weight: bold;
-    background: rgba(238, 15, 60, 0.2
-    );
+    /* background: rgba(238, 15, 60, 0.2 */
 }
 
 .small-title h1 {
@@ -84,6 +83,19 @@ header h1 {
 }
 
 .whats-inside .skill-title {
-    /*width: ;*/
+    width: 210px;
+    height: 100px;
+    /* background: rgba(19, 154, 196, 0.2); */
+    color: rgb(71, 71, 71);
+    margin-right: 20px;
+    float: left;
+}
+
+.whats-inside .skill-title h2 {
+    display: contents;
+}
+
+.skill-list li {
+    color: rgb(71, 71, 71);
 }
 
