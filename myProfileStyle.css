@@ -1,0 +1,34 @@
+p {
+    white-space: nowrap;
+}
+
+body #wrap-all {
+    padding: 100px;
+}
+
+#my-image {
+    width: 200px;
+    height: auto;
+}
+
+.profile-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+header .my-info {
+    float: left;
+    margin-left: 50px;
+}
+
+.my-info .my-profile {
+    margin-top: 20px;
+    color: rgb(23, 111, 194);
+}
+
+header h1 {
+    color: rgb(23, 111, 194);
+    font-weight: bold;
+}
+
