@@ -1,14 +1,16 @@
-p {
-    white-space: nowrap;
-}
-
-body #wrap-all {
+#wrap-all {
+    width: 1300px;
+    height: auto;
     padding: 100px;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(209, 200, 187, .2);
 }
 
-#my-image {
+#my-pic {
     width: 200px;
     height: auto;
+    padding: 5px;
 }
 
 .profile-image {
@@ -17,18 +19,71 @@ body #wrap-all {
     margin-right: 5px;
 }
 
-header .my-info {
-    float: left;
-    margin-left: 50px;
+.my-detail {
+    width: 1200px;
+    height: auto;
+    background: rgba(130, 216, 16, 0.2);
+    position: absolute; top: 30px; left: 30px;
 }
 
-.my-info .my-profile {
-    margin-top: 20px;
+.my-image {
+    width: 210px;
+    background: rgba(10, 187, 231, 0.2);
+    position: absolute; top: 30px; left: 30px;
+}
+
+.my-profile {
     color: rgb(23, 111, 194);
+    background: rgba(216, 16, 16, 0.2);
+    position: absolute; top: 30px; left: 250px;
+}
+
+.my-profile .data {
+    background: rgba(122, 8, 216, 0.2);
+    margin-bottom: 25px;
+}
+
+.my-info {
+    background: rgba(128, 83, 165, 0.2);
+    position: absolute; top: 350px; left: 60px;
+}
+
+.my-info .data{
+    background: rgba(128, 83, 165, 0.2);
+}
+
+.small-title {
+    width: 210px;
+    background: rgba(21, 13, 134, 0.2);
+    margin-right: 10px;
+    float: left;
+}
+
+.whats-inside {
+    width: 700px;
+    height: auto;
+    background: rgba(23, 206, 84, 0.2);
+    overflow: hidden;
 }
 
 header h1 {
-    color: rgb(23, 111, 194);
     font-weight: bold;
+    background: rgba(238, 15, 60, 0.2
+    );
+}
+
+.small-title h1 {
+    color: rgb(23, 111, 194);
+}
+
+.just-line {
+    width: 1000px; 
+    border-bottom: 0px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.whats-inside .skill-title {
+    /*width: ;*/
 }
 
